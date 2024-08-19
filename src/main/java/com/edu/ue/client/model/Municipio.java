@@ -7,6 +7,7 @@ public class Municipio {
     private int codDepartamento;
 
     public Municipio(String region, String departamento, String municipio, int codDepartamento) {
+        super();
         this.region = region;
         this.departamento = departamento;
         this.municipio = municipio;
